@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:text="My Profile"
+        android:background="@color/colorAccent"
+        android:textColor="#fff"
+        android:textSize="30sp"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Name"
+        android:gravity="center_vertical"
+        android:textSize="18sp"
+        android:paddingLeft="20dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="Ishara Rathnayake"
+        android:paddingLeft="20dp"
+        android:id="@+id/etname"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Email"
+        android:gravity="center_vertical"
+        android:textSize="18sp"
+        android:paddingLeft="20dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="ishara@gmail.com"
+        android:paddingLeft="20dp"
+        android:id="@+id/etemail"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Date of Birth"
+        android:gravity="center_vertical"
+        android:textSize="18sp"
+        android:paddingLeft="20dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="dd/mm/yyyy"
+        android:paddingLeft="20dp"
+        android:id="@+id/etdob"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="save"
+        android:background="@color/colorAccent"
+        android:textColor="#fff"
+        android:onClick="save"
+        />
+
+</LinearLayout>
